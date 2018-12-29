@@ -76,9 +76,11 @@ vector<Rect> getROI(Mat &src){
     for(int i=0; i<contours.size(); i++){
         Rect rect_tmp = boundingRect(contours[i]);
         double s = rect_tmp.area();
+        rectangle(musk, rect_tmp.tl(), rect_tmp.br(), Scalar(0, 255, 0));
+        imshow("musk", musk);
+        waitKey(0);
         if(s>3100 && s<3600){
             rect.push_back(rect_tmp);
-            rectangle(musk, rect_tmp.tl(), rect_tmp.br(), Scalar(0, 255, 0));
         }
     }
     sort(rect.begin(), rect.end(), comp);
@@ -105,7 +107,7 @@ int Sum(Mat& src){
 
 int main() {
     int color_this_face[9];
-    string fileName = "/home/top/Desktop/IMG_20181224_165455.jpg";
+    string fileName = "/home/top/Desktop/6.jpg";
     Mat src = imread(fileName);
     vector<Rect> ROI_rect = getROI(src);
     Mat imgHSV;
@@ -172,3 +174,4 @@ int main() {
     waitKey(0);
     return 0;
 }
+
