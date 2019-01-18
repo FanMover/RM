@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RM2018-DJTU-VisionOpenSource" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RubiksCube-TwophaseSolver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_segmentation/imageSegmentation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_segmentation/imageSegmentation/HomeWork_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/object_detection/CamshiftTracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rubiks3-solve" vcs="Git" />
+  </component>
+</project>
