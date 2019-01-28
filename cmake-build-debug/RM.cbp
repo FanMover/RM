@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/top/project/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/top/project/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/top/project/RM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RM">
+				<Option output="/home/top/project/RM/cmake-build-debug/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/top/project/RM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang"/>
+					<Add directory="/home/top/project/RM/object_detection/armorFind_demo"/>
+					<Add directory="/home/top/project/RM/object_detection/CamshiftTracker/camshift"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/AddBullet"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/ArmorFind"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Camera"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Serial"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib"/>
+					<Add directory="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RM/fast">
+				<Option output="/home/top/project/RM/cmake-build-debug/RM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/top/project/RM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang"/>
+					<Add directory="/home/top/project/RM/object_detection/armorFind_demo"/>
+					<Add directory="/home/top/project/RM/object_detection/CamshiftTracker/camshift"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/AddBullet"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/ArmorFind"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Camera"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Serial"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver"/>
+					<Add directory="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib"/>
+					<Add directory="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 RM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/top/project/RM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/top/project/RM/Hough_transform/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/AddBullet/BulletVision.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/ArmorFind/armorfind.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/ArmorFind/armorpredict.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Camera/RMVideoCapture.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Camera/StereoXML.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Header.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Serial/CRC_Check.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Serial/serial.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/InitParam.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/TString.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver/HandWritingSolver.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver/ImageProcess.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver/LedNumberSolver.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver/LogicProcess.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/Sudoku/digitver/caffe_prototype.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/include/WatchDog.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/AddBullet/BulletVision.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/ArmorFind/armorfind.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/ArmorFind/armorpredict.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Camera/RMVideoCapture.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Camera/StereoXML.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Serial/CRC_Check.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Serial/serial.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/InitParam.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/TString.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/digitver/HandWritingSolver.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/digitver/ImageProcess.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/digitver/LedNumberSolver.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/digitver/LogicProcess.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/Sudoku/digitver/caffe_prototype.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/src/WatchDog.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/sudokuposcal.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/InfantryVisionFinal/sudokuposcal.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/Header.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/RMVideoCapture.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/RMVideoCapture.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/StereoCalib.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/StereoCalib.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Stereo_Calib/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/RM2018-DJTU-VisionOpenSource/Vision_watchdog_proc/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang/ThresholdMethods.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang/ThresholdMethods.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang/WatershedMethod.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang/WatershedMethod.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/image_segmentation/imageSegmentation/HomeWork_2/Homework_2_fanmoshang/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/CamshiftTracker/camshift/camShiftTracking.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/CamshiftTracker/camshift/classTest.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/CamshiftTracker/camshift/getInitialRect.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/armorFind_demo/Header.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/armorFind_demo/armorfind.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/armorFind_demo/armorfind.h">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/armorFind_demo/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/object_detection/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Combinatorics.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Combinatorics.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeParser.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeParser.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/FaceletCube.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/FaceletCube.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/KociMoveTables.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/MoveTable.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/MoveTable.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/PruningTable.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/PruningTable.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Solver.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Solver.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Vector.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Vector.hpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/main.cpp">
+			<Option target="RM"/>
+		</Unit>
+		<Unit filename="/home/top/project/RM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

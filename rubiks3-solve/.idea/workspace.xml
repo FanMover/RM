@@ -12,15 +12,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b9bda13-3b47-413d-b860-b8e61177f532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rubiks3-solve.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubiks3-solve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/Cube.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/Cube.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CubeDetector.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CubeDetector.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CubeParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/CubeParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/FaceletCube.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/FaceletCube.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/MoveTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/MoveTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/RubiksCube.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/RubiksCube.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/Solver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/Solver.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/CMakeFiles/rubiks3-solve.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/rubiks3-solve" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/rubiks3-solve" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,54 +49,68 @@
     <session id="1452998191">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="27" />
-          <entry key="h" value="4" />
-          <entry key="hpp" value="16" />
-          <entry key="rubiks3-solve (disassembly)" value="2" />
-          <entry key="txt" value="4" />
+          <entry key="algorithm" value="1" />
+          <entry key="cpp" value="39" />
+          <entry key="h" value="9" />
+          <entry key="hpp" value="51" />
+          <entry key="rubiks3-solve (disassembly)" value="22" />
+          <entry key="tcc" value="1" />
+          <entry key="txt" value="11" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="4" />
-          <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="47" />
+          <entry key="CMakeLists.txt" value="11" />
+          <entry key="Disassembly" value="22" />
+          <entry key="ObjectiveC" value="101" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="647" />
+          <entry key="GDB" value="1" />
+          <entry key="cpp" value="4950" />
           <entry key="h" value="30" />
-          <entry key="hpp" value="164" />
-          <entry key="txt" value="123" />
+          <entry key="hpp" value="2998" />
+          <entry key="txt" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="106" />
-          <entry key="ObjectiveC" value="841" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="CMakeLists.txt" value="109" />
+          <entry key="Doxygen file" value="19" />
+          <entry key="GDBCommands" value="1" />
+          <entry key="ObjectiveC" value="7959" />
+          <entry key="PLAIN_TEXT" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="217">
+              <caret line="189" column="37" lean-forward="true" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -90,26 +121,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+            <state relative-caret-position="2808">
+              <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/opencv2/imgproc.hpp">
+        <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="4478" column="3" lean-forward="true" selection-start-line="4478" selection-start-column="3" selection-end-line="4478" selection-end-column="3" />
+            <state relative-caret-position="1488">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="13" />
+              <folding>
+                <element signature="e#116#135#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+        <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="2282" column="61" selection-start-line="2282" selection-start-column="61" selection-end-line="2282" selection-end-column="61" />
+            <state relative-caret-position="264">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -123,18 +157,42 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>colorName</find>
+      <find>Syntax error</find>
+      <find>cout</find>
+      <find>faceCode</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="class" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.h" />
         <option value="$PROJECT_DIR$/RubikCubeColorDetect/main.cpp" />
-        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeParser.cpp" />
+        <option value="$PROJECT_DIR$/RubikCubeColorDetect/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.hpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.hpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.cpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp" />
         <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp" />
+        <option value="$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp" />
       </list>
     </option>
   </component>
@@ -145,11 +203,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="918" />
-    <option name="height" value="1076" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="894" />
+    <option name="y" value="24" />
+    <option name="width" value="1026" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,21 +222,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="rubiks3-solve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubiks3_solve" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubiks3-solve" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rubiks3-solve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rubiks3-solve" type="462c0819:PsiDirectoryNode" />
-              <item name="RubikCubeColorDetect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rubiks3-solve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubiks3_solve" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubiks3-solve" type="462c0819:PsiDirectoryNode" />
               <item name="Xcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rubiks3-solve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubiks3_solve" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubiks3-solve" type="462c0819:PsiDirectoryNode" />
               <item name="Xcode" type="462c0819:PsiDirectoryNode" />
               <item name="Rubiks Cube Solver" type="462c0819:PsiDirectoryNode" />
@@ -191,8 +244,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/COBOTFILE/sdk/examples" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,6 +289,19 @@
       <updated>1546439426978</updated>
       <workItem from="1546439430778" duration="3243000" />
       <workItem from="1547553548790" duration="4666000" />
+      <workItem from="1547679537426" duration="525000" />
+      <workItem from="1547687349274" duration="988000" />
+      <workItem from="1547692107951" duration="25160000" />
+      <workItem from="1547721936718" duration="15000" />
+      <workItem from="1547778865857" duration="122000" />
+      <workItem from="1547782507287" duration="262000" />
+      <workItem from="1547782783184" duration="4000" />
+      <workItem from="1547782807479" duration="2066000" />
+      <workItem from="1547785272472" duration="10937000" />
+      <workItem from="1547864478142" duration="6896000" />
+      <workItem from="1547876564673" duration="7784000" />
+      <workItem from="1548028779265" duration="2247000" />
+      <workItem from="1548039052696" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="rubik3*3 solve">
       <created>1546439536719</created>
@@ -242,59 +310,44 @@
       <option name="project" value="LOCAL" />
       <updated>1546439536719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="class">
+      <created>1547784726158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547784726158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7909000" />
+    <option name="totallyTimeSpent" value="65134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="-4" width="1859" height="1084" extended-state="6" />
+    <frame x="894" y="24" width="1026" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15350635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2617587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27853402" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27526882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32844242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26862302" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24717833" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32984293" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.2268623" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15350635" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27853402" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32984293" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32984293" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -304,41 +357,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rubik3*3 solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="rubik3*3 solve" />
+    <MESSAGE value="class" />
+    <option name="LAST_COMMIT_MESSAGE" value="class" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp</url>
-          <line>116</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>color_this_face</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Combinatorics.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Combinatorics.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Xcode/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,13 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.h" />
     <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/FaceletCube.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3648">
@@ -394,67 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeParser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#149#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RubikCubeColorDetect/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2616">
-          <caret line="109" column="47" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeParser.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <element signature="e#719#745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/FaceletCube.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#158#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RubikCubeColorDetect/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RubikCubeColorDetect/main.cpp" />
     <entry file="file:///usr/include/c++/5/bits/stringfwd.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -462,31 +427,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="2282" column="61" selection-start-line="2282" selection-start-column="61" selection-end-line="2282" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/include/opencv2/imgproc.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="4478" column="3" lean-forward="true" selection-start-line="4478" selection-start-column="3" selection-end-line="4478" selection-end-column="3" />
+        <state relative-caret-position="564">
+          <caret line="2377" column="15" selection-start-line="2377" selection-start-column="15" selection-end-line="2377" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="415" column="15" selection-start-line="415" selection-start-column="15" selection-end-line="415" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/imgproc/types_c.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="446" column="14" selection-start-line="446" selection-start-column="14" selection-end-line="446" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RubikCubeColorDetect/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/FaceletCube.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17736">
+          <caret line="739" column="17" selection-start-line="739" selection-start-column="17" selection-end-line="739" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15072">
+          <caret line="628" column="17" selection-start-line="628" selection-start-column="17" selection-end-line="628" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="1333" column="27" selection-start-line="1333" selection-start-column="27" selection-end-line="1333" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/bits/algorithmfwd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11688">
+          <caret line="512" column="4" selection-start-line="512" selection-start-column="4" selection-end-line="512" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeParser.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Combinatorics.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Combinatorics.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Cube.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/Solver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/bits/basic_string.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="722" column="6" lean-forward="true" selection-start-line="722" selection-start-column="6" selection-end-line="722" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="1796" column="6" selection-start-line="1796" selection-start-column="6" selection-end-line="1796" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+        <state relative-caret-position="2808">
+          <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CubeDetector.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="2282" column="61" selection-start-line="2282" selection-start-column="61" selection-end-line="2282" selection-end-column="61" />
+        <state relative-caret-position="1488">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Xcode/Rubiks Cube Solver/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="217">
+          <caret line="189" column="37" lean-forward="true" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

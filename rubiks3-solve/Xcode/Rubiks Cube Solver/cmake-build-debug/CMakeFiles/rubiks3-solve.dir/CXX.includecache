@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.cpp
-CubeDetector.hpp
-/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.hpp
+string
+-
 
 /home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.hpp
 iostream
@@ -23,6 +23,64 @@ opencv2/core.hpp
 -
 functional
 -
+vector
+-
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeParser.hpp
+FaceletCube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/FaceletCube.hpp
+string
+-
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/FaceletCube.hpp
+Cube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.hpp
+string
+-
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/KociMoveTables.hpp
+MoveTable.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/MoveTable.hpp
+RubiksCube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.hpp
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/MoveTable.hpp
+Cube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.hpp
+fstream
+-
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/PruningTable.hpp
+fstream
+-
+MoveTable.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/MoveTable.hpp
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.hpp
+Cube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Cube.hpp
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Solver.hpp
+KociMoveTables.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/KociMoveTables.hpp
+RubiksCube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.hpp
+PruningTable.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/PruningTable.hpp
+
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/main.cpp
+iostream
+-
+CubeDetector.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeDetector.hpp
+CubeParser.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/CubeParser.hpp
+FaceletCube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/FaceletCube.hpp
+RubiksCube.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/RubiksCube.hpp
+Solver.hpp
+/home/top/project/RM/rubiks3-solve/Xcode/Rubiks Cube Solver/Solver.hpp
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

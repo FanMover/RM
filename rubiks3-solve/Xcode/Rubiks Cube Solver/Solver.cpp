@@ -117,8 +117,8 @@ int Solver::Solve(RubiksCube& scrambledCube)
     
     do
     {
-        cout << "threshold(" << iteration
-        << ") = " << threshold1 << endl;
+//        cout << "threshold(" << iteration
+//        << ") = " << threshold1 << endl;
         
         newThreshold1 = Huge;	// Any cost will be less than this
         
@@ -358,12 +358,22 @@ int Solver::Disallowed(int move, int *solutionMoves, int depth) {
 }
 
 void Solver::PrintSolution(void) {
-    for(int i = 0; i < solutionLength1; i++)
+    string answer1;
+    string answer2;
+    for(int i = 0; i < solutionLength1; i++) {
+        answer1+=Cube::NameOfMove(TranslateMove(solutionMoves1[i], solutionPowers1[i], 0));
         cout << Cube::NameOfMove(TranslateMove(solutionMoves1[i], solutionPowers1[i], 0)) << " ";
+    }
     cout << ". "; // Separates phase1 and phase2 portion of the solution
-    for(int i = 0; i < solutionLength2; i++)
+    for(int i = 0; i < solutionLength2; i++) {
+        answer2+=Cube::NameOfMove(TranslateMove(solutionMoves2[i], solutionPowers2[i], 1));
         cout << Cube::NameOfMove(TranslateMove(solutionMoves2[i], solutionPowers2[i], 1)) << " ";
+    }
     cout << "(" << solutionLength1 + solutionLength2 << ")" << endl;
+//    cout << "answer = :" << answer1 << " . " << answer2 << endl;
+    if(solutionLength1+solutionLength2 == 20 ) answer = answer1 + answer2;
+    else answer = "wrong length";
+//    cout << "answer_final = :" << answer << endl;
 }
 
 int Solver::TranslateMove(int move, int power, int phase2) {

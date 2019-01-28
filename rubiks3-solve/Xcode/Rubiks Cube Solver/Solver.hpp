@@ -97,6 +97,8 @@ public:
     //   Note: you may not need to call this as the best
     //   solution, found so far, is output during the search
     void PrintSolution(void);
+
+    string answer;
     
 private:
     

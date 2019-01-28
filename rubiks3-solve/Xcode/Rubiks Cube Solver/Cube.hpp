@@ -111,10 +111,11 @@ public:
         return OppositeFaces[move];
     };
     
-    // Get the name of a move
+//     Get the name of a move
     inline static string NameOfMove(int move) {
         return MoveNames[move];
     }
+
     
     // Get the move from the move name
     static int MoveNameToMove(string moveName, int &move);

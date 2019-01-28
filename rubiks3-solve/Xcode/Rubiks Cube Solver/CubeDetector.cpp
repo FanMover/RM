@@ -4,12 +4,12 @@
 
 #include "CubeDetector.hpp"
 
-CubeDetector::CubeDetector() {}
+CubeDetector::CubeDetector() {};
 
 CubeDetector::~CubeDetector() {}
 
-vector<Rect> CubeDetector::getROI(Mat &src) {
-    std::cout << "Hello, World!" << std::endl;
+vector<Rect> CubeDetector::getROI(Mat &src, int s_max, int s_min) {
+    std::cout << "getting ROI..." << std::endl;
     Mat musk, gray, blurred, canny, dilated;
     src.copyTo(musk);
     cvtColor(src, gray, CV_RGB2GRAY);
@@ -24,19 +24,15 @@ vector<Rect> CubeDetector::getROI(Mat &src) {
     for(int i=0; i<contours.size(); i++){
         Rect rect_tmp = boundingRect(contours[i]);
         double s = rect_tmp.area();
+        cout<<"Square area :"<<s<<"  hierarchy:"<<hierarchy[i][2]<<endl;
         rectangle(musk, rect_tmp.tl(), rect_tmp.br(), Scalar(0, 255, 0));
-//        imshow("musk", musk);
-//        waitKey(0);
-        if(s>3100 && s<3600){
+        if(hierarchy[i][2] == -1 && s>s_min && s<s_max){
             rect.push_back(rect_tmp);
         }
+        imshow("musk", musk);
+        waitKey(0);
     }
     sort(rect.begin(), rect.end(), comp);
-    //使用sort函数对容器rect进行排序，使得rect_tmp可以从左往右从上往下排序
-    //定义一个结构体变量储存位置信息和序号信息和颜色信息
-    //输出代表颜色的九个字符的字符串
-//    imshow("image", musk);
-//    waitKey(0);
     return rect;
 }
 
@@ -53,66 +49,106 @@ int CubeDetector::Sum(Mat &src) {
     return counter;
 }
 
-string CubeDetector::this_face_color(string fileName) {
+string CubeDetector::this_face_color(FACE face, int isRotate) {
+    //face.src = src;
+    cout<<"Detecting this face color..."<<endl;
     char color_this_face[9];
-    Mat src = imread(fileName);
-    vector<Rect> ROI_rect = getROI(src);
+    vector<Rect> ROI_rect = getROI(face.src, face.s_max, face.s_min);
+    if(ROI_rect.size() != 9){
+        cout<<"False to get the right number of the blocks."<<endl;
+        cout<<"Please fix your auguments."<<endl;
+        return "return false";
+    }
     Mat imgHSV;
     vector<Mat> hsvSplit;
-    cvtColor(src, imgHSV, COLOR_BGR2HSV);
+    cvtColor(face.src, imgHSV, COLOR_BGR2HSV);
     split(imgHSV, hsvSplit);
     equalizeHist(hsvSplit[2], hsvSplit[2]);
     merge(hsvSplit, imgHSV);
-    Mat W_Thresholded;
-    Mat R_Thresholded;
-    Mat G_Thresholded;
-    Mat B_Thresholded;
-    Mat O_Thresholded;
-    Mat Y_Thresholded;
-    inRange(imgHSV, Scalar(W_LowH, W_LowS, W_LowV), Scalar(W_HighH, W_HighS, W_HighV), W_Thresholded);
-    inRange(imgHSV, Scalar(R_LowH, R_LowS, R_LowV), Scalar(R_HighH, R_HighS, R_HighV), R_Thresholded);
-    inRange(imgHSV, Scalar(G_LowH, G_LowS, G_LowV), Scalar(G_HighH, G_HighS, G_HighV), G_Thresholded);
-    inRange(imgHSV, Scalar(B_LowH, B_LowS, B_LowV), Scalar(B_HighH, B_HighS, B_HighV), B_Thresholded);
-    inRange(imgHSV, Scalar(O_LowH, O_LowS, O_LowV), Scalar(O_HighH, O_HighS, O_HighV), O_Thresholded);
-    inRange(imgHSV, Scalar(Y_LowH, Y_LowS, Y_LowV), Scalar(Y_HighH, Y_HighS, Y_HighV), Y_Thresholded);
-    vector<Mat> color_thre;
-    color_thre.push_back(W_Thresholded); //白色对应于0
-    color_thre.push_back(R_Thresholded); //红色对应于1
-    color_thre.push_back(G_Thresholded); //绿色对应于2
-    color_thre.push_back(B_Thresholded); //蓝色对应于3
-    color_thre.push_back(O_Thresholded); //橙色对应于4
-    color_thre.push_back(Y_Thresholded); //黄色对应于5
-    const char colorName[6] = {'W', 'R', 'G', 'B', 'O', 'Y'};
-//    namedWindow("[1]Cube", WINDOW_NORMAL);
-//    imshow("[1]Cube", src);
-//    namedWindow("[2]W_Thresholded", WINDOW_NORMAL);
-//    imshow("[2]W_Thresholded", W_Thresholded);
-//    namedWindow("[3]R_Thresholded", WINDOW_NORMAL);
-//    imshow("[3]R_Thresholded", R_Thresholded);
-//    namedWindow("[4]G_Thresholded", WINDOW_NORMAL);
-//    imshow("[4]G_Thresholded", G_Thresholded);
-//    namedWindow("[5]B_Thresholded", WINDOW_NORMAL);
-//    imshow("[5]B_Thresholded", B_Thresholded);
-//    namedWindow("[6]O_Thresholded", WINDOW_NORMAL);
-//    imshow("[6]O_Thresholded", O_Thresholded);
-//    namedWindow("[7]Y_Thresholded", WINDOW_NORMAL);
-//    imshow("[7]Y_Thresholded", Y_Thresholded);
-//    waitKey(0);
-    for(int color = 0; color < 6; color++){
+    inRange(imgHSV, Scalar(white.H_Low, white.S_Low, white.V_Low),
+            Scalar(white.H_High, white.S_High, white.V_High), W_Thresholded);
+    inRange(imgHSV, Scalar(red.H_Low, red.S_Low, red.V_Low),
+            Scalar(red.H_High, red.S_High, red.V_High), R_Thresholded);
+    inRange(imgHSV, Scalar(green.H_Low, green.S_Low, green.V_Low),
+            Scalar(green.H_High, green.S_High, green.V_High), G_Thresholded);
+    inRange(imgHSV, Scalar(blue.H_Low, blue.S_Low, blue.V_Low),
+            Scalar(blue.H_High, blue.S_High, blue.V_High), B_Thresholded);
+    inRange(imgHSV, Scalar(orange.H_Low, orange.S_Low, orange.V_Low),
+            Scalar(orange.H_High, orange.S_High, orange.V_High), O_Thresholded);
+    inRange(imgHSV, Scalar(yellow.H_Low, yellow.S_Low, yellow.V_Low),
+            Scalar(yellow.H_High, yellow.S_High, yellow.V_High), Y_Thresholded);
+    blue.color_thresh = B_Thresholded;
+    white.color_thresh = W_Thresholded;
+    green.color_thresh = G_Thresholded;
+    orange.color_thresh = O_Thresholded;
+    red.color_thresh = R_Thresholded;
+    yellow.color_thresh = Y_Thresholded;
+    colorV.push_back(blue);
+    colorV.push_back(white);
+    colorV.push_back(red);
+    colorV.push_back(green);
+    colorV.push_back(orange);
+    colorV.push_back(yellow);
+    namedWindow("[1]Cube", WINDOW_NORMAL);
+    imshow("[1]Cube", face.src);
+    namedWindow("[2]W_Thresholded", WINDOW_NORMAL);
+    imshow("[2]W_Thresholded", W_Thresholded);
+    namedWindow("[3]R_Thresholded", WINDOW_NORMAL);
+    imshow("[3]R_Thresholded", R_Thresholded);
+    namedWindow("[4]G_Thresholded", WINDOW_NORMAL);
+    imshow("[4]G_Thresholded", G_Thresholded);
+    namedWindow("[5]B_Thresholded", WINDOW_NORMAL);
+    imshow("[5]B_Thresholded", B_Thresholded);
+    namedWindow("[6]O_Thresholded", WINDOW_NORMAL);
+    imshow("[6]O_Thresholded", O_Thresholded);
+    namedWindow("[7]Y_Thresholded", WINDOW_NORMAL);
+    imshow("[7]Y_Thresholded", Y_Thresholded);
+    waitKey(0);
+    for(auto item = colorV.begin(); item != colorV.end(); ++item){
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
-                Mat roi = color_thre[color](ROI_rect[3*i+j]);
+                COLOR it = *item;
+                Mat roi = it.color_thresh(ROI_rect[3*i+j]);
                 int isColor = Sum(roi);
-                if (isColor > 200) {
-                    rectangle(src, ROI_rect[3 * i + j], Scalar(0, 255, 0));
-//                    putText(src, colorName[color], ROI_rect[3*i+j].tl(), FONT_HERSHEY_PLAIN, 1, Scalar(0,255,0), 1);
-                    color_this_face[3 * i + j] = colorName[color];
+                cout<<"isColor:"<< isColor<<endl;
+                if (isColor > 40) {
+                    rectangle(face.src, ROI_rect[3 * i + j], Scalar(0, 255, 0));
+                    putText(face.src, it.colorNameString, ROI_rect[3*i+j].tl(), FONT_HERSHEY_PLAIN, 1, Scalar(0,255,0), 1);
+                    color_this_face[3 * i + j] = it.colorCode;
+                    imshow("color of each blocks", face.src);
+                    waitKey(0);
                 }
             }
         }
     }
-    imshow("image", src);
-    waitKey(0);
     string str = color_this_face;
-    return str.substr(0,9);
+    string substring = str.substr(0,9);
+    if(isRotate == 0) {return substring;}
+    else {return Reverse(substring);}
 }
+
+void CubeDetector::separate(string fileName) {
+    cout<<"Separating.."<<endl;
+    Mat src = imread(fileName);
+    Mat src_scaled ;
+    resize(src, src_scaled, Size(800,452));
+    Point2f OriPoint_l[3] = {left.lt, left.lb, left.rb};
+    Point2f OriPoint_r[3] = {right.lt, right.lb, right.rb};
+    Point2f OriPoint_t[3] = {up.lt, up.lb, up.rb};
+    Point2f AffinePoint[3] = {Point(30, 30), Point(30, 230), Point(230,230)};
+    Mat AffineMatrix_l = getAffineTransform(OriPoint_l, AffinePoint);
+    Mat AffineMatrix_r = getAffineTransform(OriPoint_r, AffinePoint);
+    Mat AffineMatrix_t = getAffineTransform(OriPoint_t, AffinePoint);
+    warpAffine(src_scaled, left.src, AffineMatrix_l, Size(260, 260));
+    warpAffine(src_scaled, right.src, AffineMatrix_r, Size(260, 260));
+    warpAffine(src_scaled, up.src, AffineMatrix_t, Size(260, 260));
+    imshow("Separate to face left", left.src);
+    waitKey(0);
+    imshow("Separate to face right", right.src);
+    waitKey(0);
+    imshow("Separate to face top", up.src);
+    waitKey(0);
+}
+
+
+
